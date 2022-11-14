@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+section
+{
+    margin:0;
+    padding:0;
+    text-align: center;
+    width: 200px;
+    float: left;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border:1px solid #000;
+    text-align: left;
+}
+ul li{
+    padding: 2px 5px;
+}
+label{
+    font-size: 0.8rem;
+}
+input[type="input"]{
+    font-size: 0.5rem;
+    width: 100%;
+}
+button{
+    margin: 10px 0;
+    padding: 2px;
+}
+.right{
+    text-align:right;
+}
+
+.error{
+    border: 1px solid red;
+}

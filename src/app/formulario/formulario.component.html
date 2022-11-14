@@ -1,0 +1,21 @@
+<section>
+    <form (submit)="onSubmit()">
+        <ul>
+            <li>
+                <label for="pastelero">Pastelero:: </label>
+            </li>
+            <li>
+                <input type="text" name="pastelero" id="pastelero" [placeholder]="mensaje1" [(ngModel)]="pastelero" [required]="true" [class]="error1">
+            </li>
+            <li>
+                <label for="imagen">Imagen:: </label>
+            </li>
+            <li>
+                <input type="text" name="imagen" id="imagen" [placeholder]="mensaje2" [(ngModel)]="imagen" [required]="true" [class]="error2">
+            </li>
+            <li class="right">
+                <button type="submit">Enviar</button>
+            </li>
+        </ul>
+    </form>
+</section>

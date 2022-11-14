@@ -1,0 +1,20 @@
+<form (submit)="onSubComent()">
+    <ul>
+        <li>
+            <select name="nota" id="nota" [(ngModel)]="nota" [required]="true">
+                <option value="0">Seleccionar Nota</option>
+                <option value="1">Nota 1</option>
+                <option value="2">Nota 2</option>
+                <option value="3">Nota 3</option>
+                <option value="4">Nota 4</option>
+                <option value="5">Nota 5</option>
+            </select>
+        </li>
+        <li>
+            <input type="text" name="Comentario" id="Comentario" placeholder="Comentario" [(ngModel)]="comentario" [required]="true">
+        </li>
+        <li class="right">
+            <button type="submit">Enviar</button>
+        </li>
+    </ul>
+</form>

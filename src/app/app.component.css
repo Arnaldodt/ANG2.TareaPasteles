@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+main{
+    width: 800px;
+}
+section.Derecha{
+    float: right;
+    width: 370px;
+    height: 300px;
+    overflow:auto;
+}
+
+
+ul{
+
+}
+ul li{
+    display: flex;
+}
+
+img{
+    width: 300px;
+}
